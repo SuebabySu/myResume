@@ -1,0 +1,76 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Lato", "Noto Sans TC", sans-serif;
+  color: #333333;
+  background-color: #f6f7f8;
+}
+
+header {
+  height: 30px;
+  -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+main section {
+  margin: 20px 0;
+}
+
+main .section-one {
+  text-align: center;
+}
+
+main .section-one img {
+  text-align: center;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+main .section-one div.icon a {
+  text-decoration: none;
+  color: #999999;
+  font-size: 24px;
+  margin: 10px;
+}
+
+main .section-two div.skill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .section-two div.skill div {
+  min-width: 240px;
+  border-top: 1px solid #999999;
+  width: 30%;
+}
+
+main .section-three div.experience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-bottom: 1px solid #999999;
+}
+
+main .section-three div.experience div.job {
+  min-width: 300px;
+}
+/*# sourceMappingURL=style.css.map */
