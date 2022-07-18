@@ -35,6 +35,9 @@ main {
         color: #999999;
         font-size: 24px;
         margin: 10px;
+        &:hover {
+          color: #333333;
+        }
       }
     }
   }

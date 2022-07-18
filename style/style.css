@@ -45,6 +45,10 @@ main .section-one div.icon a {
   margin: 10px;
 }
 
+main .section-one div.icon a:hover {
+  color: #333333;
+}
+
 main .section-two div.skill {
   display: -webkit-box;
   display: -ms-flexbox;
